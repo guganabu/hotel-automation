@@ -1,0 +1,26 @@
+{
+    "floors": [
+        {
+            "id": 1,
+            "main_corridors": 1,
+            "sub_corridors": 2
+        },
+        {
+            "id": 2,
+            "main_corridors": 1,
+            "sub_corridors": 2
+        }
+    ],
+    "event": {
+        "motion": {
+            "state": "motion",
+            "floor": 1,
+            "sub_corridor": 2
+        },
+        "idle": {
+            "state": "idle",
+            "floor": 1,
+            "sub_corridor": 2
+        }
+    }
+}

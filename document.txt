@@ -1,0 +1,18 @@
+Const Inputs
+1. Get no. of Floors => totalFloors 
+2. Get no. of Main corridors per floor => mainCorrPerFloor
+3. Get no. of Sub Corridors per floor => subCorrPerFloor
+
+Attributes
+
+1. All ACs are turned ON by default 
+2. All Lights in Main Corridors should be turned on
+
+Encapsulated for a Floor
+    3. Motion in any of sub corridor, 
+        3.1 Turn ON Light (AC turned ON by default)
+        3.2, Could turn OFF AC in other sub corridor (Light turned OFF by default)
+        
+    4. No Motion in sub corridor (one min),
+        4.1 Turn OFF Light (AC turned ON by default)
+        4.2 Turn ON other Corridor ACs

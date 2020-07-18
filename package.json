@@ -1,0 +1,17 @@
+{
+  "name": "hotel-automation",
+  "version": "1.0.0",
+  "description": "A script that handle hotel automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Gugan",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
